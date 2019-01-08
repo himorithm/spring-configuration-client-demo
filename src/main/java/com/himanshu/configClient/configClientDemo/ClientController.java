@@ -14,6 +14,6 @@ public class ClientController {
 
     @GetMapping(path = "/")
     public String message() {
-        return "All "+messageValue+" from Himanshu";
+        return messageValue+" for Spring";
     }
 }
