@@ -6,7 +6,7 @@ Example Spring Cloud Configuration Client Application.  This spring cloud config
 Client program uses  Application Name &  profile to resolve properties. 
 
 
-[Demo Application Configuration Repo](https://github.com/himorithm/configuration)
+[Demo Application Configuration Repo](https://github.com/himorithm/demo-configuration-repo)
 
 [Demo Application Configuraion Server](https://github.com/himorithm/spring-configuration-server-demo)
 
