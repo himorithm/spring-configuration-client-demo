@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.himanshu.configClient</groupId>
-	<artifactId>configClientDemo</artifactId>
+	<artifactId>spring-configuration-client-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>configClientDemo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Spring Configuration Client Demo</name>
+	<description>Demo project for Spring Cloud Configuration Client</description>
 
 	<properties>
 		<java.version>1.8</java.version>

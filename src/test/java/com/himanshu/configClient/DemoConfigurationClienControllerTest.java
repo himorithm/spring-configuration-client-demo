@@ -1,4 +1,4 @@
-package com.himanshu.configClient.configClientDemo;
+package com.himanshu.configClient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,10 +15,7 @@ import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource("classpath:config/client-test.properties")
-public class ClientControllerTest {
-
-    @LocalServerPort
-    int randomServerPort;
+public class DemoConfigurationClienControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -26,8 +23,7 @@ public class ClientControllerTest {
     @Test
     public void message() {
         ResponseEntity<String> responseEntity = restTemplate.getForEntity("/", String.class);
-        String client = responseEntity.getBody();
-        System.out.println("client = " + client);
-
+        String responseEntityBody = responseEntity.getBody();
+        assertEquals(responseEntityBody, "I only get Integration Test work for Spring");
     }
 }
