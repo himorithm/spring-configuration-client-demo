@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: client-test
+  profiles:
+    active: test
+  cloud:
+    config:
+      uri:
