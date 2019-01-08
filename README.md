@@ -1,4 +1,4 @@
-# spring-configuration-client-demo
+# spring configuration client demo
 
 
 Example Spring Cloud Configuration Client Application.  This spring cloud configuration client connects [Configuration Server](https://github.com/himorithm/spring-configuration-server-demo) on http://localhost:8888.  Configuration server connects to gitHub to donwload configurations using git ssh protocol. 
